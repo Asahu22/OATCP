@@ -1,0 +1,3 @@
+f(K) = f(K-1) + sum - n * (array[n - k]) is the mathematical relationship for function values f(K) in terms of f(K - 1), the sum of array items sum, and array size n. This formula efficiently computes the maximum rotated function value in the dp array using a dynamic programming approach. The approach computes the initial function value, f(0), by initializing it in the dp array. It then iteratively computes f(k) by utilizing the derived relationship and updating the maximum value encountered thus far. This method finds the greatest rotation function value of the given array in an efficient manner by avoiding unnecessary computations and streamlining the computation process.
+
+Time Complexity : O(n) Space Complexity : O(n)
