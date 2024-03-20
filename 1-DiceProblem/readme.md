@@ -1,0 +1,5 @@
+This C++ program counts the number of moves that can be made in a maximum of six steps at a time to get to a given position. It uses dynamic programming to run through test cases, each of which specifies a goal point, and calculates the total number of ways to reach that point. The use of modulo arithmetic prevents integer overflow. The application outputs the total number of ways for each test case after users provide the number of test cases and the target points.
+
+The number of methods to reach each point is stored in a dynamic programming array (dp), which is initialized by the program as it iterates through each test case. It advances at a maximum of six steps at a time, traversing from 1 to the destination point and updating dp based on the number of ways to reach each point. During computation, modulo arithmetic (MOD = 1e9 + 7) is used to avoid integer overflow. For every test case, the software produces the total number of methods to reach the goal point. Large target points are handled effectively by this implementation, which also ensures accuracy and avoids overflow.
+
+Time Complexity : O(n) Space Complexity : O(n)
