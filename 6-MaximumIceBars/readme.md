@@ -1,0 +1,4 @@
+In this case, the cost of the i'th ice cream is described by costs[i], which is an array of costs. In addition, the quantity of coins we have matches the total amount we have to spend. We arrange the array in non-decreasing order so that we can purchase the most ice cream. Then, as we loop forward, we traverse through the array, comparing the coins we now have and incrementing the response. We can escape the loop when the price of an ice cream cone exceeds the amount of coins we currently have because then all subsequent expenses will be greater than or equal to that amount.
+
+Time Complexity : O(n * logn)
+Space Complexity : O(1)
